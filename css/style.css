@@ -1060,7 +1060,7 @@ img.zoom-img:hover {
 		width: 55%;
 	}
 	.banner {
-		background: url(../images/banner1.jpg) no-repeat -130px 0px;
+		background: url(../images/banner1.jpg) no-repeat -10vw;
 		background-size: cover;
 	}
 	.gallery-grids {
@@ -1093,7 +1093,7 @@ img.zoom-img:hover {
 		left: 35%;
 	}
 	.banner {
-		background: url(../images/banner1.jpg) no-repeat -140px 0px;
+		background: url(../images/banner1.jpg) no-repeat -50vw 0px;
 		background-size: cover;
 		min-height: 470px;
 	}	
@@ -1102,6 +1102,10 @@ img.zoom-img:hover {
 	}
 	iframe {
 		height: 350px;
+	}
+	.experience-wraper {
+		height: 40vh;
+		margin-bottom: 3vh;
 	}
 }
 @media screen and (max-width: 667px){
@@ -1144,7 +1148,7 @@ img.zoom-img:hover {
 		font-size: 1em;
 	}
 	.banner {
-		background: url(../images/banner1.jpg) no-repeat -170px 0px;
+		background: url(../images/banner1.jpg) no-repeat -50vw 0px;
 		background-size: cover;
 		min-height: 450px;
 	}
@@ -1384,7 +1388,7 @@ img.zoom-img:hover {
 		font-size: 1.1em;
 	}
 	.banner {
-		background: url(../images/banner1.jpg) no-repeat -280px 0px;
+		background: url(../images/banner1.jpg) no-repeat -50vw 0px;
 		background-size: cover;
 	}
 	h3.heading {
@@ -1426,7 +1430,7 @@ img.zoom-img:hover {
 		width: 50%;
 	}
 	.banner {
-		background: url(../images/banner1.jpg) no-repeat -300px 0px;
+		background: url(../images/banner1.jpg) no-repeat -50vw 0px;
 		background-size: cover;
 	}
 	.education .col-md-6, .experience .col-md-6 {
@@ -1461,6 +1465,10 @@ img.zoom-img:hover {
 	}
 	.contact h3.heading {
 		width: 60%;
+	}
+	.experience-wraper {
+		height: 50vh;
+		margin-bottom: 3vh;
 	}
 }
 @media screen and (max-width: 1920px){
