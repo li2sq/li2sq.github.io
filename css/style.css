@@ -259,7 +259,7 @@ h3.heading {
     font-size: 40px;
     color: #7d3f98;
     border-bottom: 1px dotted #7d3f98;
-    width: 19%;
+    width: 22%;
     margin: 0 auto 1em;
     text-transform: uppercase;
 }
@@ -279,7 +279,7 @@ h3.heading {
 	padding-right: 15vw;
 }
 .gallery h3.heading {
-    width: 13%;
+    width: 15%;
 }
 /*-- clients--*/
 .clients{
@@ -747,15 +747,17 @@ input[type="checkbox"] {
 
 /* footer */
 .footer {
-    padding: 2em 0 1.5em;
-    text-align: center;
-    background: #121212;
+	padding: 2em 0 1.5em;
+	text-align: center;
+	background: #121212;
+	bottom: 0;
+	width: 100%;
 }
 .footer h3 a {
-    color: #fff;
-    font-size: 1.8em;
-    text-decoration: none;
-    text-transform: uppercase;
+	color: #fff;
+	font-size: 1.8em;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 .footer p {
     color: #fff;
@@ -845,6 +847,13 @@ img.zoom-img:hover {
     overflow: hidden;
 }
 /*-- //image-zoom --*/
+
+/*-- image--*/
+img.img-mask:hover {
+	background-color: white;
+	opacity: 0.8;
+}
+
 /*-- //gallery --*/
 
 /*-- to-top --*/
@@ -910,7 +919,7 @@ img.zoom-img:hover {
 		width: 14%;
 	}	
 	.gallery h3.heading {
-		width: 19%;
+		width: 22%;
 	}
 	.count-agileits h3.heading {
 		width: 36%;
@@ -981,7 +990,7 @@ img.zoom-img:hover {
 		width: 15%;
 	}
 	.gallery h3.heading {
-		width: 19%;
+		width: 22%;
 	}
 	.count-agileits h3.heading {
 		width: 42%;
@@ -1482,4 +1491,8 @@ img.zoom-img:hover {
 }
 @media screen and (max-width: 1920px){
 	
+}
+
+.skilltitle {
+	width: 50%;
 }
