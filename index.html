@@ -7,19 +7,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="My Career Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script type="application/x-javascript"> 
+	addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+	function hideURLbar(){ window.scrollTo(0,1); } 
+</script>
 
 <link rel="stylesheet" href="css/lightbox.css"><!-- for gallery css -->
 
 <!-- banner text effect css files -->
-    <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <link rel="stylesheet" type="text/css" href="css/style3.css" />
 <!-- banner text effect css files -->
 
-<!-- Navigation-CSS --> <link rel="stylesheet" href="css/menu_sideslide.css"	type="text/css" media="all">
-
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" /><!-- for testimonials -->
+<!-- for testimonials -->
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" />
 
 <link href="css/bars.css" rel="stylesheet" type="text/css"><!-- for skills -->
 
@@ -36,7 +36,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
 <!-- //googlefonts -->
-
 </head>
 <body>
 
@@ -226,21 +225,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<img src="images/gallery7.jpg" alt="" class="img-responsive zoom-img">
 					</a>
 				</div>
-<!-- 				<div class="col-md-3 gallery-grids grid-mdl">
-					<a href="images/gallery6.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/gallery6.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div> -->
 				<div class="col-md-3 gallery-grids grid-mdl">
 					<a href="images/gallery3.gif" class="gallery-box" data-lightbox="example-set" data-title="">
 						<img src="images/gallery3.gif" alt="" class="img-responsive zoom-img">
 					</a>
 				</div>
-<!-- 				<div class="col-md-3 gallery-grids grid-mdl">
-					<a href="images/gallery10.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
-						<img src="images/gallery10.jpg" alt="" class="img-responsive zoom-img">
-					</a>
-				</div> -->
 				<div class="col-md-3 gallery-grids grid-mdl">
 					<a href="images/gallery2.jpg" class="gallery-box" data-lightbox="example-set" data-title="">
 						<img src="images/gallery2.jpg" alt="" class="img-responsive zoom-img">
@@ -400,7 +389,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //footer -->
 
 <!-- js -->
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
 <!-- //js -->
 
 <script type="text/javascript" src="js/numscroller-1.0.js"></script><!-- numscroller js file -->
@@ -417,7 +406,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //scrolling script -->
 
 <!-- //here starts scrolling icon -->
-<script src="js/SmoothScroll.min.js"></script>
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
 	<!-- here stars scrolling script -->
@@ -441,21 +429,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <!-- Navigation-JavaScript -->
 	<script src="js/classie.js"></script>
-	<script src="js/main.js"></script>
 <!-- //Navigation-JavaScript -->
 		
 <!-- FlexSlider-JavaScript -->
-	<script defer src="js/jquery.flexslider.js"></script>
+	<script defer src="js/jquery.flexslider-min.js"></script>
 	<script type="text/javascript">
-		$(function(){
-			SyntaxHighlighter.all();
-				});
-				$(window).load(function(){
-				$('.flexslider').flexslider({
-					animation: "slide",
-					start: function(slider){
-						$('body').removeClass('loading');
-					}
+		$(window).on('load', function(){
+			$('.flexslider').flexslider({
+				animation: "slide",
+				start: function(slider){
+					$('body').removeClass('loading');
+				}
 			});
 		});
 	</script>

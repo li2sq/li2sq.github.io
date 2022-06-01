@@ -933,9 +933,8 @@ img.img-mask:hover {
 	.aitslogow3ls {
 		width: 65%;
 	}
-	.aboutleft {
-		margin-top: 4em;
-	}
+	.aboutleft {}
+		/* margin-top: 4em; */
 	.education, .skills, .experience, .contact, .gallery, .count-agileits {
 		padding: 3em 0;
 	}
