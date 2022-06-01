@@ -116,7 +116,7 @@ img{
 
 /* banner */
 .banner {
-    background: url(../images/banner1.jpg) no-repeat 0px 0px;
+    background: url(../images/banner1_tiny.jpg) no-repeat 0px 0px;
     background-size: cover;
 	min-height:770px;
 }
@@ -1068,7 +1068,7 @@ img.img-mask:hover {
 		width: 55%;
 	}
 	.banner {
-		background: url(../images/banner1.jpg) no-repeat -10vw;
+		background: url(../images/banner1_tiny.jpg) no-repeat -10vw;
 		background-size: cover;
 	}
 	.gallery-grids {
@@ -1101,7 +1101,7 @@ img.img-mask:hover {
 		left: 35%;
 	}
 	.banner {
-		background: url(../images/banner1.jpg) no-repeat -50vw 0px;
+		background: url(../images/banner1_tiny.jpg) no-repeat -50vw 0px;
 		background-size: cover;
 		min-height: 470px;
 	}	
@@ -1156,7 +1156,7 @@ img.img-mask:hover {
 		font-size: 1em;
 	}
 	.banner {
-		background: url(../images/banner1.jpg) no-repeat -50vw 0px;
+		background: url(../images/banner1_tiny.jpg) no-repeat -50vw 0px;
 		background-size: cover;
 		min-height: 450px;
 	}
@@ -1396,7 +1396,7 @@ img.img-mask:hover {
 		font-size: 1.1em;
 	}
 	.banner {
-		background: url(../images/banner1.jpg) no-repeat -50vw 0px;
+		background: url(../images/banner1_tiny.jpg) no-repeat -50vw 0px;
 		background-size: cover;
 	}
 	h3.heading {
@@ -1438,7 +1438,7 @@ img.img-mask:hover {
 		width: 50%;
 	}
 	.banner {
-		background: url(../images/banner1.jpg) no-repeat -50vw 0px;
+		background: url(../images/banner1_tiny.jpg) no-repeat -50vw 0px;
 		background-size: cover;
 	}
 	.education .col-md-6, .experience .col-md-6 {
