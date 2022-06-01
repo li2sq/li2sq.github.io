@@ -1499,3 +1499,31 @@ img.img-mask:hover {
 #experience-title {
 	margin-bottom: 30px;
 }
+
+/* Tooltip container */
+.my-tooltip {
+  position: relative;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.my-tooltip .my-tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+	font-size: 12px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  left: 100%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.my-tooltip:hover .my-tooltiptext {
+  visibility: visible;
+}
