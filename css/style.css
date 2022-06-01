@@ -31,6 +31,11 @@ img{
 	width:100%;
 }
 
+.titles {
+	display: flex;
+	align-items: baseline;
+	padding: 0 8% 10px;
+}
 
 /*-- Top-Bar --*/
 
@@ -260,7 +265,7 @@ h3.heading {
     color: #7d3f98;
     border-bottom: 1px dotted #7d3f98;
     width: 22%;
-    margin: 0 auto 1em;
+    margin: 0 auto 0em;
     text-transform: uppercase;
 }
 .skills h3.heading {
