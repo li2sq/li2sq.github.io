@@ -35,8 +35,19 @@ img{
 	display: flex;
 	align-items: baseline;
 	padding: 0 8% 10px;
+	justify-content: space-between;
 }
-
+.titles h4 a {
+	background-image: url('../images/right.png');
+	background-size: cover;
+	height: 32px;
+	width: 32px;
+	position: absolute;
+}
+.reverse {
+	transform: rotateY(180deg);
+	transition: transform 0s;
+}
 /*-- Top-Bar --*/
 
 .agiletopbar {
@@ -924,7 +935,17 @@ img.img-mask:hover {
 .my-tooltip:hover .my-tooltiptext {
   visibility: visible;
 }
-
+.go-back {
+	padding: 0 8% 10px;
+}
+.go-back a {
+	background-image: url('../images/home.png');
+	background-size: cover;
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	top: 25px;
+}
 /* Responsive design */
 @media screen and (max-width: 1440px){
 	.banner {
@@ -1135,6 +1156,11 @@ img.img-mask:hover {
 	}
 	.address h3 {
 		font-size: 25px;
+	}
+	.go-back a {
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 1rem;
 	}
 }
 @media screen and (max-width: 736px){
