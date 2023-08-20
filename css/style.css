@@ -132,7 +132,7 @@ img{
 
 /* banner */
 .banner {
-    background: url(../images/banner1_tiny.jpg) no-repeat 0px 0px;
+    background: url(../images/banner2.png) no-repeat 0px 0px;
     background-size: cover;
 	min-height:770px;
 }
@@ -363,7 +363,7 @@ ul.address li ul.agileits-address-text li  a:hover{
     color: #ff9900;
 }
 ul.address li ul.agileits-address-text li:nth-child(1) {
-    width: 25%;
+    width: 30%;
 }
 ul.hireme li {
     display: inline-block;
@@ -1131,7 +1131,7 @@ img.img-mask:hover {
 		width: 55%;
 	}
 	.banner {
-		background: url(../images/banner1_tiny.jpg) no-repeat -10vw;
+		background: url(../images/banner2.png) no-repeat -10vw;
 		background-size: cover;
 	}
 	.gallery-grids {
@@ -1169,7 +1169,7 @@ img.img-mask:hover {
 		left: 35%;
 	}
 	.banner {
-		background: url(../images/banner1_tiny.jpg) no-repeat -50vw 0px;
+		background: url(../images/banner2.png) no-repeat -50vw 0px;
 		background-size: cover;
 		min-height: 470px;
 	}	
@@ -1224,7 +1224,7 @@ img.img-mask:hover {
 		font-size: 1em;
 	}
 	.banner {
-		background: url(../images/banner1_tiny.jpg) no-repeat -50vw 0px;
+		background: url(../images/banner2.png) no-repeat -50vw 0px;
 		background-size: cover;
 		min-height: 450px;
 	}
@@ -1373,7 +1373,7 @@ img.img-mask:hover {
 		width: 23%;
 	}
 	ul.address li ul.agileits-address-text li:nth-child(1) {
-		width: 37%;
+		width: 40%;
 	}
 	.agilelogo {
 		width: 38%;
@@ -1468,7 +1468,7 @@ img.img-mask:hover {
 		font-size: 1.1em;
 	}
 	.banner {
-		background: url(../images/banner1_tiny.jpg) no-repeat -50vw 0px;
+		background: url(../images/banner2.png) no-repeat -50vw 0px;
 		background-size: cover;
 	}
 	h3.heading {
@@ -1510,7 +1510,7 @@ img.img-mask:hover {
 		width: 50%;
 	}
 	.banner {
-		background: url(../images/banner1_tiny.jpg) no-repeat -50vw 0px;
+		background: url(../images/banner2.png) no-repeat -50vw 0px;
 		background-size: cover;
 	}
 	.education .col-md-6, .experience .col-md-6 {

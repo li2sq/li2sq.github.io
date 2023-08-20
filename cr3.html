@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home </title>
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="My Career Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<link rel="stylesheet" href="css/lightbox.css"><!-- for gallery css -->
+
+<!-- banner text effect css files -->
+    <link rel="stylesheet" type="text/css" href="css/style3.css" />
+<!-- banner text effect css files -->
+
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" /><!-- for testimonials -->
+
+<link href="css/bars.css" rel="stylesheet" type="text/css"><!-- for skills -->
+
+<!-- custom-theme files -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //custom-theme files -->
+
+<!-- font-awesome-icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome-icons -->
+
+<!-- googlefonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+<!-- //googlefonts -->
+
+</head>
+<body>
+<!-- gallery -->
+	<div id="gallery" class="gallery">
+		<div class="go-back"><a href="/index.html"></a></div>
+		<div class="titles">
+			<h4><a href="/ds.html" class="reverse"></a></h4>
+			<h3 class="heading">CR3</a></h3>
+			<h4><a href="/peugeot-ivi.html"></a></h4>
+		</div>
+		<div id="dsapp-container" class="gallery-info">
+		</div>
+		<script src="js/lightbox-plus-jquery.min.js"></script>
+	</div>
+<!-- //gallery -->
+
+
+
+<!-- footer -->
+<div class="footer">
+	<div class="container">
+		<h3><a href="index.html">(ง •̀_•́)ง</a></h3>
+		<p>Copyright &copy; By 李松乔 </a></p>
+					<ul class="social-nav model-3d-0 footer-social w3_agile_social">
+						<li><a href="#" class="facebook">
+							<div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+							<div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a>
+						</li>
+						<li><a href="#" class="twitter"> 
+							<div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+							<div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
+						</li>
+						<li><a href="#" class="instagram">
+							<div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+							<div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a>
+						</li>
+						<li><a href="#" class="pinterest">
+							<div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+							<div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a>
+						</li>
+					</ul>
+	</div>
+</div>
+<!-- //footer -->
+<script>
+	(() => {
+		const _list = ["images/CR3/Apple-CarPlay.png","images/CR3/Call-Dialog.png","images/CR3/Call-in-progress-Dialog.png","images/CR3/DAC1-VP360.png","images/CR3/DoubleCallinprogressDialog.png","images/CR3/EV1s4B-ESave-Description.png","images/CR3/FSN1A-Navigation-FullApp.png","images/CR3/Home-nav4x2+3shortcuts.png","images/CR3/MM2-Player.png","images/CR3/MM3-Library-Albums.png","images/CR3/MR1-Player-favoris.png","images/CR3/Mirroring-Page.png","images/CR3/NC1-Connect.png","images/CR3/PRO1-Select-profile-full..png","images/CR3/PRO2.6-CreateProfile-step1b.png","images/CR3/PRO2.6-CreateProfile-step4-1.png","images/CR3/PRO2.6-CreateProfile-step4-2.png","images/CR3/PRO2.6-CreateProfile-step4.png","images/CR3/SAD1-shortcuts.png","images/CR3/SAD2.1-Subsettings-AEBS.png","images/CR3/SCU3-Touchscreen-Customzation.png","images/CR3/SCU3.1-Widgets-Library.png","images/CR3/SD3-Analog.png","images/CR3/Statistic.png","images/CR3/TP1-Dialpad.png","images/CR3/TP2-LastCallList.png","images/CR3/TP3.1-ContactDetails.png","images/CR3/VR2.1-UnicriticalFeedback-Dialog.png","images/CR3/VR2.4-NBestList.png","images/CR3/VR5-Complex-Result.png","images/CR3/VR6-Detial-card.png","images/CR3/climate2.mp4","images/CR3/full-tactile-RFTA-Wide-Auto.png"] 
+		const newDom = document.createElement.bind(document);
+		const setAttributes = (el, options) => Object.keys(options).forEach(attr => el.setAttribute(attr, options[attr]));
+		const parent = document.querySelector('#dsapp-container');
+		_list.forEach(item => {
+			const imgPath = `${item}`;
+			const _div = newDom('div');
+			_div.classList.add('col-md-3','gallery-grids','grid-mdl');
+			const _a = newDom('a');
+			setAttributes(_a, {'class': 'gallery-box', 'data-lightbox':"example-set", 'data-title':"", href:imgPath})
+			const _img = newDom('img');
+			_img.classList.add('img-responsive','zoom-img');
+			setAttributes(_img, {'src':imgPath, 'alt': imgPath});
+			_a.appendChild(_img);
+			_div.appendChild(_a);
+			parent.appendChild(_div);
+		})
+		const _clearfix = newDom('div');
+		_clearfix.setAttribute('class', 'clearfix');
+		parent.appendChild(_clearfix);
+	})()
+</script>
+<!-- js -->
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<!-- //js -->
+
+<script type="text/javascript" src="js/numscroller-1.0.js"></script><!-- numscroller js file -->
+
+<!-- scrolling script -->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+<!-- //scrolling script -->
+
+<!-- //here starts scrolling icon -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling script -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+			$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<!-- //here ends scrolling script -->
+<!-- //here ends scrolling icon -->
+
+<!-- Navigation-JavaScript -->
+	<script src="js/classie.js"></script>
+<!-- //Navigation-JavaScript -->
+
+<!-- bars js files -->
+	<script src="js/bars.js"></script>
+<!-- //bars js files -->
+
+<!-- banner text effect js file -->
+	<script src="js/modernizr.custom.72111.js"></script>
+<!-- banner text effect js file -->
+
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+
+</body>
+</html>
