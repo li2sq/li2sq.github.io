@@ -1,3 +1,3 @@
 #!/bin/bash
 
-for file in images/CR3/*; do echo -n "\"$file\"," >> tmp; done
+for file in images/MS/*; do echo -n "\"$file\"," >> tmp; done
